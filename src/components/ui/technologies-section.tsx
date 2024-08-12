@@ -10,7 +10,7 @@ export default function TechnologiesSection() {
             <div className="mt-20 flex justify-center">
                 <div className="columns-3 sm:columns-2 lg:columns-3 gap-16 sm:gap-32 md:gap-52 xl:gap-52 space-y-8" data-aos="fade-up">
                     {skills.map((skills) => (
-                        <div className="flex items-center gap-4 xl:filter xl:grayscale xl:hover:grayscale-0" key={skills.name}>
+                        <div className="flex items-center gap-4" key={skills.name}>
                             <span>{skills.icon}</span>
                             <span className="font-semibold md:text-lg hidden sm:block">{skills.name}</span>
                         </div>
