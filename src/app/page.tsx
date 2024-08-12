@@ -9,6 +9,8 @@ import Loading from "@/components/ui/loading";
 import AboutSection from "@/components/ui/about-section";
 import ProjectsSection from "@/components/ui/projects-section";
 import TechnologiesSection from "@/components/ui/technologies-section";
+import ContactSection from "@/components/ui/contact-section";
+import FooterSection from "@/components/ui/footer-section";
 
 export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
@@ -40,6 +42,10 @@ export default function Home() {
                     <ProjectsSection />
 
                     <TechnologiesSection />
+
+                    <ContactSection />
+
+                    <FooterSection />
                 </div>
             )}
         </main>

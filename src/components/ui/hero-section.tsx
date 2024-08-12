@@ -23,7 +23,7 @@ export default function HeroSection() {
                             </LinkPreview>{" "}
                             <br className="hidden sm:block" />
                             <span className="opacity-30 animate-dimmed [animation-delay:1700ms]">A</span>{" "}
-                            <LinkPreview url="https://github.com/rtrivaldo">
+                            <LinkPreview url="#technologies" imageSrc="images/technologies.jpeg" isStatic>
                                 <span className="text-cyan-400 opacity-30 animate-dimmed [animation-delay:800ms]">frontend developer,</span>
                             </LinkPreview>{" "}
                             <span className="opacity-30 animate-dimmed [animation-delay:2000ms]">who craft</span> <br className="hidden sm:block" />
@@ -36,7 +36,7 @@ export default function HeroSection() {
                 </div>
 
                 <Link href="#about" className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden">
-                    <div className="z-20 flex flex-col items-center" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="3000" data-aos-offset="0">
+                    <div className="z-20 flex flex-col items-center" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="2800" data-aos-offset="0">
                         <span className="animate-bounce text-3xl">
                             <RiArrowDownSLine />
                         </span>

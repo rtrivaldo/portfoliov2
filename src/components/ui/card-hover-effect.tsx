@@ -47,8 +47,8 @@ export const HoverEffect = ({
                         <CardDescription>{item?.description}</CardDescription>
 
                         <div className="mt-4 flex gap-2">
-                            {item?.tech.map((e) => {
-                                return <CardTechStack key={e}>{e}</CardTechStack>;
+                            {item?.tech.map((tech) => {
+                                return <CardTechStack key={tech}>{tech}</CardTechStack>;
                             })}
                         </div>
                     </Card>

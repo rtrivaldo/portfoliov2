@@ -2,8 +2,8 @@ import { HoverEffect } from "./card-hover-effect";
 
 export default function ProjectsSection() {
     return (
-        <div className="max-w-screen-xl px-6 md:px-10 mx-auto" id="projects">
-            <h1 className="mt-40 text-3xl md:text-4xl text-center font-semibold tracking-wide underline underline-offset-8 decoration-cyan-400" data-aos="fade">
+        <div className="mt-20 md:mt-40 max-w-screen-xl px-6 md:px-10 mx-auto" id="projects">
+            <h1 className="text-3xl md:text-4xl text-center font-semibold tracking-wide underline underline-offset-8 decoration-cyan-400" data-aos="fade">
                 Projects
             </h1>
 

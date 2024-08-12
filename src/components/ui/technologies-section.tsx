@@ -2,15 +2,15 @@ import { ReactNode } from "react";
 
 export default function TechnologiesSection() {
     return (
-        <div className="max-w-screen-xl px-6 md:px-10 mx-auto" id="technologies">
-            <h1 className="mt-20 text-3xl md:text-4xl text-center font-semibold tracking-wide underline underline-offset-8 decoration-cyan-400" data-aos="fade">
+        <div className="mt-20 md:mt-40 max-w-screen-xl px-6 md:px-10 mx-auto" id="technologies">
+            <h1 className="text-3xl md:text-4xl text-center font-semibold tracking-wide underline underline-offset-8 decoration-cyan-400" data-aos="fade">
                 Technologies
             </h1>
 
             <div className="mt-20 flex justify-center">
-                <div className="columns-3 sm:columns-2 lg:columns-3 gap-16 sm:gap-32 md:gap-52 xl:gap-52 space-y-8">
+                <div className="columns-3 sm:columns-2 lg:columns-3 gap-16 sm:gap-32 xl:gap-40 space-y-8">
                     {skills.map((skills) => (
-                        <div className="flex items-center gap-4 xl:filter xl:grayscale xl:hover:grayscale-0" key={skills.name} data-aos="fade-up">
+                        <div className="flex items-center gap-4" key={skills.name} data-aos="fade-up">
                             <span>{skills.icon}</span>
                             <span className="font-semibold md:text-lg hidden sm:block">{skills.name}</span>
                         </div>
