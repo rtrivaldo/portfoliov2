@@ -4,7 +4,7 @@ import { IoMdMail } from "react-icons/io";
 
 export default function FooterSection() {
     return (
-        <div className="mt-10 md:mt-20 max-w-screen-xl px-6 md:px-10 mx-auto" id="footer">
+        <div className="mt-20 md:mt-40 max-w-screen-xl px-6 md:px-10 mx-auto text-center lg:text-left" id="footer" data-aos="fade-up" data-aos-offset="0">
             <div className="mb-10 text-gray-500 flex flex-col lg:flex-row justify-between text-sm md:text-base">
                 <div>
                     <p className="hidden lg:block">
@@ -59,7 +59,7 @@ export default function FooterSection() {
                 <div className="">
                     <p>© 2024 Rivaldo Tandoko -- Pontianak, Indonesia</p>
 
-                    <div className="mt-4 flex items-center gap-6 text-xl lg:text-2xl">
+                    <div className="mt-4 flex items-center gap-6 text-xl lg:text-2xl justify-center lg:justify-start">
                         <Link href="https://www.tiktok.com/@sycle.dev?_t=8odqA9nwTSh&_r=1" className="hover:text-cyan-400 transition-all duration-150 ease-in-out">
                             <FaTiktok />
                         </Link>
