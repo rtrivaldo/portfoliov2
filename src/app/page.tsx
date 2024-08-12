@@ -8,6 +8,7 @@ import HeroSection from "@/components/ui/hero-section";
 import Loading from "@/components/ui/loading";
 import AboutSection from "@/components/ui/about-section";
 import ProjectsSection from "@/components/ui/projects-section";
+import TechnologiesSection from "@/components/ui/technologies-section";
 
 export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +23,7 @@ export default function Home() {
 
     useEffect(() => {
         Aos.init({
-            offset: 50,
+            offset: 100,
             once: true,
         });
     });
@@ -37,6 +38,8 @@ export default function Home() {
                     <AboutSection />
 
                     <ProjectsSection />
+
+                    <TechnologiesSection />
                 </div>
             )}
         </main>

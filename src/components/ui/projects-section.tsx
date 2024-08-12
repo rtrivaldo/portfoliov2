@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import { HoverEffect } from "./card-hover-effect";
 
 export default function ProjectsSection() {
