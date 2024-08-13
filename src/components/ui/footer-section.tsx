@@ -4,8 +4,8 @@ import { IoMdMail } from "react-icons/io";
 
 export default function FooterSection() {
     return (
-        <div className="mt-20 md:mt-40 max-w-screen-xl px-6 md:px-10 mx-auto text-center lg:text-left" id="footer" data-aos="fade-up" data-aos-offset="0">
-            <div className="mb-10 text-gray-500 flex flex-col lg:flex-row justify-between text-sm md:text-base">
+        <div className="mt-20 md:mt-40 max-w-screen-xl px-6 md:px-10 mx-auto text-center lg:text-left overflow-y-hidden" id="footer">
+            <div className="mb-10 text-gray-500 flex flex-col lg:flex-row justify-between text-sm md:text-base" data-aos="fade-up" data-aos-offset="0">
                 <div>
                     <p className="hidden lg:block">
                         Coded in Visual Studio Code by{" "}

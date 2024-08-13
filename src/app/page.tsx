@@ -11,6 +11,7 @@ import ProjectsSection from "@/components/ui/projects-section";
 import TechnologiesSection from "@/components/ui/technologies-section";
 import ContactSection from "@/components/ui/contact-section";
 import FooterSection from "@/components/ui/footer-section";
+import Navbar from "@/components/ui/navbar";
 
 export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
@@ -29,12 +30,15 @@ export default function Home() {
             once: true,
         });
     });
+
     return (
         <main className="">
             {isLoading ? (
                 <Loading />
             ) : (
-                <div className="">
+                <div className="" id="home">
+                    <Navbar />
+
                     <HeroSection />
 
                     <AboutSection />
