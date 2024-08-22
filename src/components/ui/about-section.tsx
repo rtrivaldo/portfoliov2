@@ -26,6 +26,7 @@ const AboutSection: React.FC = () => {
                         end: "bottom 50%",
                         scrub: 1,
                         toggleActions: "play none none none",
+                        once: true,
                     },
                 }
             );
