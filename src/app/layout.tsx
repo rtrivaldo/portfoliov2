@@ -3,6 +3,7 @@ import { Wix_Madefor_Display } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
 import Loading from "@/components/ui/loading";
+import SmoothScrolling from "@/components/ui/smooth-scroll";
 
 const wixMadeForDisplay = Wix_Madefor_Display({ subsets: ["latin"] });
 
@@ -22,7 +23,9 @@ export default function RootLayout({
     return (
         <html lang="en" className="dark scroll-smooth">
             <body className={wixMadeForDisplay.className}>
-                <Suspense fallback={<Loading />}>{children}</Suspense>
+                <Suspense fallback={<Loading />}>
+                    <SmoothScrolling>{children}</SmoothScrolling>
+                </Suspense>
             </body>
         </html>
     );
