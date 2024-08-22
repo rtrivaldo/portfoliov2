@@ -1,4 +1,4 @@
-# Personal Portfolio Built with Next.js, TypeScript and Tailwind CSS
+# Personal Portfolio Built with Next.js, Typescript and TailwindCSS
 
 This is a personal portfolio project built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, Aeternity UI, React AOS, and Framer Motion.
 
