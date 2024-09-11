@@ -16,6 +16,13 @@ export default function ProjectsSection() {
 
 export const projects = [
     {
+        title: "ShortPath",
+        description: "A sleek solution designed to manage and shorten your super long links.",
+        link: "https://www.shortpath.site",
+        tech: ["NextJs", "TailwindCSS", "API", "PostgreSQL"],
+        url: "/images/shortpath.jpeg",
+    },
+    {
         title: "CineTrack",
         description: "A website to view movie or tv show details and watch trailers.",
         link: "https://cinetrack-coral.vercel.app",
