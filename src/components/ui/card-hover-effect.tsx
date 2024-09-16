@@ -42,7 +42,7 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
                     <Card>
-                        <Image src={item?.url} alt={item?.title} width={1920} height={1080} className="w-full" />
+                        <Image src={item?.url} alt={item?.title} width={1920} height={1080} className="w-full rounded-md" />
                         <CardTitle>{item?.title}</CardTitle>
                         <CardDescription>{item?.description}</CardDescription>
 
