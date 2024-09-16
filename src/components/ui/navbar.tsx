@@ -13,9 +13,9 @@ export default function Navbar() {
     const lenis = useLenis();
 
     return (
-        <div className="flex justify-between items-center px-6 md:px-10 xl:px-20 py-6 fixed w-full bg-slate-950/50 backdrop-blur-md z-50" data-aos="fade-down" data-aos-delay="2800">
+        <div className="flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-slate-950/50 backdrop-blur-md z-50" data-aos="fade-down" data-aos-delay="2800">
             <div className="">
-                <Link href={"#home"} className="text-2xl font-semibold tracking-wide">
+                <Link href={"#home"} className="text-xl md:text-2xl font-semibold tracking-wide">
                     Sycle.dev
                 </Link>
             </div>
@@ -35,13 +35,13 @@ export default function Navbar() {
                 </span>
             </div>
 
-            <div className="flex flex-col gap-2 md:hidden" onClick={toggleMenu}>
-                <span className={`block h-[2px] w-8 bg-white ${isMenuOpen ? "-rotate-45 origin-center translate-y-[10px]" : ""} transition-all duration-200 ease-in-out`}></span>
-                <span className={`block h-[2px] bg-white ${isMenuOpen ? "w-0" : "w-8"} transition-all duration-200`}></span>
-                <span className={`block h-[2px] w-8 bg-white ${isMenuOpen ? "rotate-45 origin-center -translate-y-[10px]" : ""} transition-all duration-200`}></span>
+            <div className="flex flex-col gap-[6px] md:hidden" onClick={toggleMenu}>
+                <span className={`block h-[2px] w-6 bg-white ${isMenuOpen ? "-rotate-45 origin-center translate-y-[8px]" : ""} transition-all duration-200 ease-in-out`}></span>
+                <span className={`block h-[2px] bg-white ${isMenuOpen ? "w-0" : "w-6"} transition-all duration-200`}></span>
+                <span className={`block h-[2px] w-6 bg-white ${isMenuOpen ? "rotate-45 origin-center -translate-y-[8px]" : ""} transition-all duration-200`}></span>
             </div>
 
-            <div className={`flex md:hidden flex-col gap-2 text-right absolute -right-[200px] top-20 bg-white pl-10 pr-4 py-4 text-black rounded-lg ${isMenuOpen ? "-translate-x-[224px]" : ""} transition-all duration-300 ease-in-out`}>
+            <div className={`flex md:hidden flex-col gap-2 text-right absolute -right-[200px] top-[60px] bg-white pl-10 pr-4 py-4 text-black rounded-lg ${isMenuOpen ? "-translate-x-[224px]" : ""} transition-all duration-300 ease-in-out`}>
                 <span className="text-lg font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer" onClick={() => lenis && lenis.scrollTo("#about", { offset: -100, easing: cubicBezier(0.65, 0, 0.35, 1), duration: 1 })}>
                     About
                 </span>
