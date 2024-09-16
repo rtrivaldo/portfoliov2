@@ -48,6 +48,9 @@ export default function Navbar() {
                 <span className="text-lg font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer" onClick={() => lenis && lenis.scrollTo("#projects", { offset: -100, easing: cubicBezier(0.65, 0, 0.35, 1), duration: 1 })}>
                     Projects
                 </span>
+                <span className="text-lg font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer" onClick={() => lenis && lenis.scrollTo("#technologies", { offset: -100, easing: cubicBezier(0.65, 0, 0.35, 1), duration: 1 })}>
+                    Technologies
+                </span>
                 <span className="text-lg font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer" onClick={() => lenis && lenis.scrollTo("#contact", { offset: -100, easing: cubicBezier(0.65, 0, 0.35, 1), duration: 1 })}>
                     Contact
                 </span>
