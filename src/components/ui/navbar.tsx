@@ -15,9 +15,9 @@ export default function Navbar() {
     return (
         <div className="flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-slate-950/50 backdrop-blur-md z-50" data-aos="fade-down" data-aos-delay="2800">
             <div className="">
-                <Link href={"#home"} className="text-xl md:text-2xl font-semibold tracking-wide">
+                <span className="text-xl md:text-2xl font-semibold tracking-wide" onClick={() => lenis && lenis.scrollTo("#home", { offset: -100, easing: cubicBezier(0.65, 0, 0.35, 1), duration: 1 })}>
                     Sycle.dev
-                </Link>
+                </span>
             </div>
 
             <div className=" hidden md:flex items-center gap-10 text-lg font-semibold tracking-wide">
