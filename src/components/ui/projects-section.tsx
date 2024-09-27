@@ -40,6 +40,13 @@ export const projects = [
     url: '/images/terminal-portfolio.jpeg',
   },
   {
+    title: 'Wedding Invitation',
+    description: 'Digital wedding invitation with an RSVP form.',
+    link: 'https://e-invitation-black-and-white.vercel.app/',
+    tech: ['NextJs', 'TailwindCSS', 'Framer Motion', 'API'],
+    url: '/images/e-invitation-black-and-white.png',
+  },
+  {
     title: 'CineTrack',
     description:
       'A website to view movie or tv show details and watch trailers.',
@@ -53,13 +60,6 @@ export const projects = [
     link: 'https://tailguide.vercel.app/',
     tech: ['NextJs', 'TailwindCSS'],
     url: '/images/tailguide.jpeg',
-  },
-  {
-    title: 'Wedding Invitation',
-    description: 'Digital wedding invitation with an RSVP form.',
-    link: 'https://e-invitation-black-and-white.vercel.app/',
-    tech: ['NextJs', 'TailwindCSS', 'Framer Motion', 'API'],
-    url: '/images/e-invitation-black-and-white.png',
   },
   {
     title: 'Expense Tracker',
