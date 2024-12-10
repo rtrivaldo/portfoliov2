@@ -25,6 +25,14 @@ export default function ProjectsSection() {
 
 export const projects = [
   {
+    title: 'SycleStore',
+    description:
+      'A platform dedicated to providing fast, reliable, and affordable game top-ups.',
+    link: 'https://syclestore.com',
+    tech: ['NextJs', 'TailwindCSS', 'PostgreSQL', 'Prisma', 'API'],
+    url: '/images/syclestore.png',
+  },
+  {
     title: 'ShortPath',
     description:
       'A sleek solution designed to manage and shorten your super long links.',
@@ -45,14 +53,6 @@ export const projects = [
     link: 'https://e-invitation-black-and-white.vercel.app/',
     tech: ['NextJs', 'TailwindCSS', 'Framer Motion', 'API'],
     url: '/images/e-invitation-black-and-white.png',
-  },
-  {
-    title: 'CineTrack',
-    description:
-      'A website to view movie or tv show details and watch trailers.',
-    link: 'https://cinetrack-coral.vercel.app',
-    tech: ['NextJs', 'TailwindCSS', 'API'],
-    url: '/images/cinetrack.jpeg',
   },
   {
     title: 'TailGuide',
